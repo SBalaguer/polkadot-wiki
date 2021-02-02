@@ -1,156 +1,166 @@
 ---
 id: getting-started
-title: Getting Started
-sidebar_label: Getting Started
+title: Comienza Aquí
+sidebar_label: Comienza Aquí
 ---
 
-Welcome to the Polkadot Wiki! This central source of truth contains guides for interacting with the
-core functionality. Our wiki has three main sections: Learn (for learners), Build (for individuals
-that want to build on Polkadot), and Maintain (for people that want to maintain the network).
+Bienvenido a la Wiki de Polkadot! Esta fuente de verdad contiene guías para interactuar con la
+funcionalidad central del sistema. Nuestra wiki tiene tres secciones principales: Aprender (para
+quienes están aprendiendo), Desarrolla (para quienes quieran desarrollar en Polkadot), y Mantener
+(para quiene quieran mantener la red).
 
-## What is Polkadot?
+## Qué es Polkadot?
 
-Polkadot enables scalability by allowing specialized blockchains to communicate with each other in a
-secure, trust-free environment.
+Polkadot hace posible la escalabilidad a través de permitir que blockchains especializados se
+comuniquen entre ellos en forma segura, en un ambiente que no requiere confianza entre partes.
 
-Polkadot is built to connect and secure unique blockchains, whether they be public, permission-less
-networks, private consortium chains, or oracles and other Web3 technologies. It enables an internet
-where independent blockchains can exchange information under common security guarantees.
+Polkadot esta desarrollado para conectar y asegurar blockchains únicas, ya sean redes públicas, sin
+necesidad de permisos, redes privadas, oráculos u otras tecnologías de la Web3. Además, hace posible
+un internet donde blockchains independientes puedan intercambiar información debajo de ciertas
+garantías de seguridad.
 
-Polkadot is a living network with the core pillars of governance and upgradability. The network has
-an advanced suite of governance tools and, using the [WebAssembly](https://webassembly.org/)
-standard as a "meta-protocol", can autonomously deploy network upgrades. Polkadot adapts to your
-growing needs without the risks of network forks.
+Polkadot es una red viva que tiene como pilares fundamentales a la Governanza y Capacidad de
+Actualización. La red contiene un conjunto avanzado de herramientras de gobierno y, haciendo uso del
+estándard [WebAssembly](https://webassembly.org/) como "meta-protocolo", puede realizar
+actualizaciones de la red de forma autónoma. Polkadot se adapta a las nuevas necesidades sin el
+riesgo de las bifurcaciones de red.
 
-> Note: If you haven't heard of Governance before, a great place to start is the
-> [Governance page](learn-governance)
+> Nota: Si nunca has escuchado de Governanza, una gran forma de empezar es ir a la
+> [Página de Governanza](learn-governance)
 
-By connecting these dots, Polkadot serves as a foundational part of a decentralized web, where users
-control their data and are not limited by trust bounds within the network.
+Al conectar estos puntos (_dots_), Polkadot se convierte en una parte fundacional de la web
+decentralizada, donde los usuarios controlan su información personal y no están limitados por los
+límites de confianza dentro de la red.
 
-## Why Polkadot?
+## Por qué Polkadot?
 
-Back in the early 2000's, when the internet was gaining popularity for the first time, the internet
-featured read-only, static, basic webpages. The online connected world at the time was only the
-beginning of virtual data, identities, and more. The internet during this time was also called the
-Web 1.0.
+Allá por los comienzos de los 2000's, cuando internet ganaba popularidad por primera vez, internet
+tenía páginas web básicas, que permitían solamente lectura y eran estáticas. El mundo conectado
+online era el principio de la información virtual, identidades y más. El internet de ese entonces es
+conocido como la Web 1.0.
 
-As social media platforms and online businesses began to emerge, the internet transformed into the
-Web 2.0. This upgraded internet, which we still use today, features dynamic, interactive webpages,
-where users can read and write information plus publish their own for others to see. This version of
-the web though, comes with downsides dealing with data control, privacy issues, and trust. This is
-where the Web 3.0 comes into the picture.
+A medida que las pataformas de Redes Sociales y negociones online emergieron, internet se transformó
+en la Web 2.0. Este internet actualizado, que todavía usamos hoy, contiene páginas web dinámicas,
+interactivas, donde los usuarios pueden leer y escribir información, publicando sus ideas para que
+otros las vean. Sin embargo esta versión de la web tiene inconvenientes relacionados como el control
+datos, problemas de privacidad y confianza. Es aquí donde la Web 3.0 tiene un rol.
 
-The Web 3.0 is taking centralized applications and turning them into decentralized, trust-free
-protocols. The goal is to transform the internet into a decentralized web, where users control their
-own data and identity in a trust-free environment. The Web 3.0 movement aims to remove
-intermediaries and build a trustless infrastructure.
+La Web 3.0 transforma aplicaciones centralizadas en protrocolos decentralizados que no requieren
+confianza. El objectivo es transformar internet en una red decentralizada, donde los usuarios
+controlan sus datos e identidad en un ambiente que no requiere confianza. El movimiento de Web 3.0
+busca remover intermediarios y construir una infraestructura que no requiera de confianza entre
+partes.
 
-> To learn more of the Web3 movement, check out this video from the
-> [Web3 Summit](https://youtu.be/l44z35vabvA)
+> Para aprender más del moviemiento de Web3, mira el siguiente video de la
+> [Conferencia Web3](https://youtu.be/l44z35vabvA)
 
-## How does Polkadot work?
+## Cómo funciona Polkadot?
 
-The Polkadot network uses a
-[sharded model](<https://en.wikipedia.org/wiki/Shard_(database_architecture)>) where shards - called
-"[parachains](learn-parachains)", allow transactions to be processed in parallel instead of
-sequentially. Each parachain in the network has a unique state transition function (STF). Based on
-Polkadot's design, as long as a chain's logic can compile to Wasm and adheres to the Relay Chain
-API, then it can connect to the Polkadot network as a parachain.
+La red de Polkadot utiliza un
+[modelo de shard](<https://es.wikipedia.org/wiki/Shard_(arquitectura_de_base_de_datos)>) donde cada
+shard o fragmento - llamado "[parachains](learn-parachains)", permite que las transacciones sean
+procesadas en paralelo en lugar de en serie. Cada parachain en la red contiene una única función de
+transición de estado (STF por sus siglas en inglés). Basado en el diseño de Polkadot, mientras la
+lógica de una parachain pueda ser compilada a Wasm y se adhiera a la API de la Relay Chain (cadena
+de relés), entonces una parachain puede conectarse a la red de Polkadot.
 
-Polkadot has a Relay Chain acting as the main chain of the system. Parachains construct and propose
-blocks to validators on the Relay Chain, where the blocks undergo rigorous
-[availability and validity](learn-availability) checks before being added to the finalized chain. As
-the Relay Chain provides the security guarantees, [collators](learn-collator) - full nodes of these
-parachains - don't have any security responsibilities, and thus do not require a robust incentive
-system. This is how the entire network stays up to date with the many transactions that take place.
+Polkadot tiene una Relay Chain que actúa como la cadena principal del sistema. Las parachains
+construyen y proponen bloques a ser varlidados por la Relay Chain, donde los bloques se someten a
+rigurosos chequeos de [disponibilidad y validez](learn-availability) antes de ser agregados a la
+cadena finalizada. Como la Relay Chain provee las garantías de seguridad, los
+[collators (intercaladores)](learn_collator) - son nodos completos de las parachains - no tienen
+responsabilidad en la seguridad y por ende no requieren de un sistema robusto de incentivos. Así es
+como la red se mantiene actualizada con las muchas transacciones que ocurren.
 
 ![polkadot-relay-chain](assets/polkadot_relay_chain.png)
 
-In order to interact with chains that want to use their own finalization process (e.g. Bitcoin),
-Polkadot has [bridge parachains](learn-bridges) that offer two-way compatibility, meaning that
-transactions can be made between different parachains.
+Para poder interactuar con cadenas que tienen su propio proceso de finalización (por ejemplo
+Bitcoin), Polkadot tiene [parachains puente](learn-bridges) que ofrencen compatibilidad
+bidireccional, lo que significa que se pueden hacer transaciones entre las distitnas parachains.
 
-The [Cross-Chain Messaging Protocol (XCMP)](learn-crosschain) allows parachains to send messages of
-any type to each other. The shared security and validation logic of the Relay Chain provide the
-environment for trust-free message passing that opens up true interoperability.
+El [Protocolo de Mensajería entre cadenas (XCMP)](learn-crosschain) permite el envío de distintos
+tipos de mensajes entre las distintas parachains. El sistema de seguridad compartida junto con la
+lógica de validación de la Relay Chain proveen el ecosistema necesario para el paso de mensajes en
+un ambiente que no requiere confianza, habilitando así la verdadera interoperabilidad.
 
-> To watch a short, beginner-friendly animation on Polkadot, check out our
-> [Polkadot Explainer video](https://www.youtube.com/watch?v=_-k0xkooSlA)
+> Para ver una animación pequeña, pensada para principiantes, puedes ver el
+> [Video Explicativo de Polkadot](https://www.youtube.com/watch?v=_-k0xkooSlA)
 
-## Why should you use Polkadot?
+## Por qué tu deberías usar Polkadot?
 
-Whether you're a blockchain developer or if you're interested in taking part of
-[Polkadot's community](https://polkadot.network/polkadot-ambassador-program/), Polkadot offers a
-platform for everyone. This wiki offers a place for builders and maintainers to utilize
-[tools](build-tools-index) and for brand-new learners to dive into educational material.
+Ya sea que eres un Desarrollador de Blockchain o si estás interesado en ser parte de la
+[Comunidad de Polkadot](https://polkadot.network/polkadot-ambassador-program/), Polkadot ofrece una
+plataforma para todos. Esta wiki es el lugar para que desarroladores y mantenedores utilicen
+distintas [herramientas](build-tools-index) y para que quienes quieran aprender tengan todo el
+material educativo a disposición.
 
-## Getting Started
+## Cómo empezar
 
-For brand-new learners of Blockchain technology:
+Para quienes recién comienzan a aprender Blockchain:
 
-- The [Blockchain Fundamentals MOOC course][mooc] is a great introduction to familiarizing yourself
-  with crytography, blockchain concepts, decentralization, networks, crytocurrency, and so much
-  more. This is recommended for users with backgrounds of all levels, and is also a free course.
+- El [Curso en Fundamentales de Blockchain][mooc] es una gran herramienta para familiarizarse con
+  criptografía, conceptos de blockchain, decenrtalización, redes, criptomoneda, y más. Este curso es
+  recomendado para usuarios de todos los niveles. Además, es gratis.
 
-For brand-new learners of Polkadot:
+Para quienes recién comienzan a aprender acerca de Polkadot:
 
-- [Polkadot's original white paper][white-paper] is a technical summary around one possible
-  direction of implementing the Polkadot network. This paper uses rationale and technical details to
-  support why this direction is beneficial. This original white paper also explains how Polkadot's
-  core components work together to build this decentralized network.
-- [Polkadot's overview paper][overview-paper] is an updated version of the white paper that
-  describes the protocol in more technical terms. We would recommend reading this overview paper if
-  you are interested in digging more into the protocol itself.
-- [Polkadot's light paper][light-paper] is a visual, easy to read, and less technical introduction
-  into its blockchain technology. This paper dives into the components of Polkadot but is
-  understandable for both a non-technical and technical reader.
-- [Polkadot's specification][spec] is a Github repository that holds the latest Polkadot Host
-  protocol specification, Polkadot's specification tests of the many components of the network, and
-  the Polkadot Runtime specification. This repo holds algorithms and explores how various processes
-  function in the Polkadot network. The Polkadot specification takes Polkadot's ideas and concepts
-  from the light and the white paper but focuses on the technical specs of the technology.
-- [Watching the Technical Explainer Videos][teched videos]: These are great introductory videos that
-  explain and demonstrate how to use Polkadot and its [User Interface][ui].
-- Reading [What is Polkadot? A Brief Introduction][article] on Medium. There are also other great
-  articles to read on [Polkadot's Medium][p medium] or [Web3 Foundation's Medium][w medium].
-- [Creating a Polkadot Account][account generation]
-- [Sending a Balance transfer][transfer]
-- [Staking as Nominator][nominator]
-- [Running a Validator][validator]
-- [Setting an Identity][identity]
-- [Creating a Proxy Account][proxy]
-- [Making Proposals and Voting for Referenda][democracy]
-- [Running for the Council][council]
-- [Voting for Councillors][council voting]
-- [Using the Treasury][treasury]
+- El [White paper de Polkadot][white-paper] es un resumen técnico de una de las posibles direcciones
+  de implementación de la red Polkadot. Este documento utiliza detalles técnicos y lógicos para
+  justificar por qué dicha dirección es benficiosa. Este documento también explica cómo funcionan
+  los distintos compoenentes de Polkadot y cómo trabajan en conjunto.
+- El [Documento de descripción general de Polkadot][overview-paper] es una versión actualizada del
+  whitepaper que describe el protocol en términos más técnicos. Recomendamos leer este documento si
+  se está interesado en explorar más a detalle el protocolo.
+- El [Documento de Presentación][light-paper] es más visual, fácil de leer, y menos técnico. El
+  documento se adentra en los componentes de Polkadot, pero es entendible para lectores técnicos y
+  no técnicos.
+- La [Especificación de Polkadot][spec] es un repositorio de Github que contiene la información más
+  actualizada del protocolo Host de Polkadot, la especificación de las pruebas de los distintos
+  componentes de la red, y de la lógica de ejecución (Runtime) de Polkadot. Este repositorio
+  contiene algoritmos y explora el funcionamiento de varios procesos en la red Polkadot. La
+  Especificación de Polkadot toma ideas y conceptos de los distintos documentos, pero se focaliza en
+  los aspectos más técnicos del a tecnología.
+- [Ver videos de Explicación Ténica][teched videos]. Estos videos son una buena introducción para
+  explicar y demostrar comó usar Polkadot is su [Interfaz de Usuario][ui].
+- Leer [What is Polkadot? A Brief Introduction][article] en Medium. Existen otros muy buenos
+  documentos en el [Medium de Polkadot][p medium] o [Medium de Web3 Foundation][w medium].
+- [Crear una cuenta en Polkadot][account generation]
+- [Envío de una Transferencia de Saldo][transfer]
+- [Participación (Staking) como Nominador][nominator]
+- [Ser un Validador][validator]
+- [Crear una Identidad][identity]
+- [Crear una cuenta Proxy][proxy]
+- [Realizar una propuestsa y votar una Referanda][democracy]
+- [Postularse para el Consejo][council]
+- [Votar Consejales][council voting]
+- [Usar Fondos del Tesoro][treasury]
 
-For brand-new learners of Kusama, Polkadot's canary cousin network: To learn more about how to build
-and maintain on the Kusama network, please head over to our [Kusama Guide][kusama guide].
+Para quienses quieren aprender de Kusama, la red canaria de Polkadot: Para aprender más acerca de
+cómo desarrollar y mantener en la red Kusama, por favor ver la [Guía de Kusama][kusama guide].
 
-## Resources
+## Recursos
 
-- [Polkadot Crowdcast](https://www.crowdcast.io/polkadot) - List of all Crowdcast webinars that the
-  Web3 Foundation has done.
-- [Polkadot Explorer](https://polkadot.js.org/apps/#/explorer) - Browser for the Polkadot network;
-  can be used for Polkadot, Kusama, or any Substrate-based chain.
-- [Polkascan](http://polkascan.io/) \- Real-time multi-chain data for Polkadot Relay Chain and
-  Parity Substrate chains.
-- [Subscan.io](https://subscan.io) - Explorer for Substrate based chains.
-- [Polkadot Overview](https://youtu.be/lIghiCmHz0U) - Dr. Gavin Wood presents an overview of
-  Polkadot. (Video)
-- [Polkadot Overview](https://techcrunch.com/video/fireside-chat-with-jutta-steiner-parity-technologies/) -
-  Dr. Jutta Steiner presents Polkadot. (Video)
-- [Polkadot & Substrate Overview](https://www.youtube.com/watch?v=0IoUZdDi5Is&feature=youtu.be) -
-  Dr. Gavin Wood presents Substrate (blockchain in-a-box + VM) and Polkadot, and builds a blockchain
-  on-stage in 30 minutes using Substrate. (Video)
-- [Community / Ecosystem](community) - List of community rooms and channels to talk to others about
+- [Polkadot Crowdcast](https://www.crowdcast.io/polkadot) - Listado de todos los eventos en
+  Crowdcast que realizó la Fundación Web3.
+- [Explorador de Polkadot](https://polkadot.js.org/apps/#/explorer) - Navegador de la red de
+  Polkadot. Puede usarse para Polkadot, Kusama, o cualquier otra red basada en Substrate.
+- [Polkascan](http://polkascan.io/) \- Información en tiempo real de la Relay Chain de Polkadot y
+  otras cadenas basadas en Substrate.
+- [Subscan.io](https://subscan.io) - Navegador para cadenas basadas en Substrate.
+- [Descripción general de Polkadot](https://youtu.be/lIghiCmHz0U) - El Dr. Gavin Wood presenta una
+  descripción general de Polkadot. (Video)
+- [Descripción general de Polkadot](https://techcrunch.com/video/fireside-chat-with-jutta-steiner-parity-technologies/) -
+  La Dra. Jutta Steiner presenta Polkadot. (Video)
+- [Descripción general de Polkadot y Substrate](https://www.youtube.com/watch?v=0IoUZdDi5Is&feature=youtu.be) -
+  El Dr. Gavin Wood presenta Substrate (Kit de Blockchain) y Polkadot, y desarrolla un blockchain en
+  el escanario en 30 minutos usando Substrate. (Video)
+- [Comunidad / Ecosistema](community) - Listado de canales de comunicación y otros recuros sobre
   Polkadot.
-- [Sample Applications](build-examples-index) - Sample applications that are built on or currently
-  being built for Polkadot.
-- [Contributing Guide](contributing) - Rules for contributing to the wiki.
-- [Polkadot Knowledge Base](https://support.polkadot.network/) - Troubleshooting resources for
-  specific errors and problems.
+- [Aplicaciones Ejemplo](build-examples-index) - Ejemplo de aplicaciones que se han desarrolado o
+  están siendo desarrolladas en Polkadot.
+- [Guía para Contribuir](contributing) - Reglas para Contribuir a la Wiki.
+- [Base de Conocimiento de Polkadot](https://support.polkadot.network/) - Recursos de resolución
+  para errores y problemas específicos.
 
 [mooc]: https://mooc.web3.foundation/course/blockchain-fundamentals/
 [white-paper]: https://polkadot.network/PolkaDotPaper.pdf

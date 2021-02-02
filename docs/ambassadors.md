@@ -1,33 +1,35 @@
 ---
 id: ambassadors
-title: Polkadot Ambassador Programme
-sidebar_label: Polkadot Ambassador Programme
+title: Programa Embajadores Polkadot
+sidebar_label: Programa Embajadores Polkadot
 ---
 
-The Polkadot Ambassador Programme is an initiative run by Web3 Foundation to support contributors to
-the Polkadot community and ecosystem (Ambassadors).
+El Programa de Embajadores Polkadot es una iniciativa liderada por la Web3 Foundation para brindar
+soporte a contribuyetes de la comunidad de Polkadot y el Ecosistema.
 
-## How it works
+## Cómo Funciona
 
-If you are enthusiastic about Polkadot and Web3 and are willing to help the community grow you can
-join the program and receive funding for hosting events, access to communication channels of core
-team members, and expanded access to Polkadot events.
+Si eres un entusiasta sobre Polkadot y la Web3, y estas dispuesto a ayudar al crecimiento de la
+comunidad, puedes suscribirte al Programa de Embajadores Polkadot y recibir ayuda económica para
+hacer eventos, acceder a canales de comunicación exclusivos para miembros clave del equipo, así como
+también tener acceso preferencial a eventos de Polkadot.
 
-There are many ways you can be involved in expanding Polkadot’s ecosystem, for example by:
+Son muchas las maneras en que puedes colaborar a la expansión del ecosistema de Polkadot, por
+ejemplo:
 
-- Contributing code and documentation related to the ecosystem
-- Speaking about Polkadot at events, workshops, and meetups
-- Writing blog posts
-- Representing your region on Polkadot projects
-- Mentoring newcomers to the platform
-- Identifying partnerships and opportunities for Polkadot
-- Participating in calls and tasks that help drive the ecosystem forward
+- Contribuir código y documentación relacionada al ecosistema
+- Disertar sobre Polkadot en eventos, talleres de trabajo y otros encuentros
+- Escribiendo posteos en blogs.
+- Representado a tu región en distintos proyectos de Polkadot
+- Tutoreando a personas nuevas en la plataforma
+- Identificando alianzas y oportunidades para Polkadot
+- Participando en reuniones y tareas que ayuden a crecer el ecosistema.
 
-## How to apply:
+## Cómo Aplicar
 
-To become a Polkadot ambassador please fill out your application
-[here](https://share.hsforms.com/1LtBuOi1bSs-p8XGXC_hoyw4752a?__hstc=123948821.70a325bdf6a1bb40f540ac9a8a360d8b.1598640553003.1610053172383.1610445961306.40&__hssc=123948821.1.1610445961306&__hsfp=1205054983).
-You will then be contacted by the Polkadot team.
+Para ser un Embajador Polkadot, por favor completá el siguiente formulario
+[aquí](https://share.hsforms.com/1LtBuOi1bSs-p8XGXC_hoyw4752a?__hstc=123948821.70a325bdf6a1bb40f540ac9a8a360d8b.1598640553003.1610053172383.1610445961306.40&__hssc=123948821.1.1610445961306&__hsfp=1205054983).
+Luego serás contactado por el equipo de Polkadot.
 
-Find out more about the programme and how to join it
-[here](https://polkadot.network/polkadot-ambassador-program/?utm_source=twitter&utm_medium=social&utm_campaign=Ambassador%20program).
+Para saber más del programa y cómo aplicar puede seguir el siguiente
+[enlace](https://polkadot.network/polkadot-ambassador-program/?utm_source=twitter&utm_medium=social&utm_campaign=Ambassador%20program).
